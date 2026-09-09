@@ -1,0 +1,17 @@
+# Core numerical computing
+numpy
+
+# Computer Vision
+opencv-python
+
+# Data processing
+pandas
+
+# Classical Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+
+# Configuration
+PyYAML

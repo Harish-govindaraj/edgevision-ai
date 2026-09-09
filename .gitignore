@@ -1,0 +1,35 @@
+@"
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# Data
+data/raw/*
+data/processed/*
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# Logs / outputs
+logs/
+outputs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
