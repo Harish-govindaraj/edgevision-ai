@@ -7,8 +7,9 @@ opencv-python
 # Data processing
 pandas
 
-# Classical Machine Learning
+# Classical Machine Learning & Features
 scikit-learn
+scikit-image
 
 # Visualization
 matplotlib

@@ -1,7 +1,14 @@
-@"
+# Virtual Environment
 .venv/
+env/
+venv/
+ENV/
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+.pytest_cache/
 
 # IDE
 .vscode/
@@ -17,12 +24,16 @@ __pycache__/
 # Data
 data/raw/*
 data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Model weights
+# Model weights & binaries
 models/*.pt
 models/*.pth
 models/*.onnx
 models/*.engine
+models/*.joblib
+!models/.gitkeep
 
 # Logs / outputs
 logs/
@@ -32,4 +43,3 @@ outputs/
 # OS
 .DS_Store
 Thumbs.db
-"@ | Set-Content .gitignore
