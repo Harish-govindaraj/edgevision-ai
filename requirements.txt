@@ -11,6 +11,10 @@ pandas
 scikit-learn
 scikit-image
 
+# Deep Learning
+torch
+torchvision
+
 # Visualization
 matplotlib
 

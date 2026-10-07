@@ -1,0 +1,4 @@
+runtime,resolution,processed_frames,capture_fps,processing_fps,dropped_frames,total_p50_ms,total_p95_ms,inference_mean_ms,tracking_mean_ms,cpu_util_pct
+PYTORCH CPU (FP32),640x480,165,30.0,16.6,135,60.38,66.47,60.02,0.01,62.6
+ONNX CPU (FP32),640x480,70,30.0,6.9,230,145.28,154.3,144.98,0.01,35.9
+ONNX CPU (INT8),640x480,67,30.0,6.6,233,148.6,175.79,150.44,0.01,47.3

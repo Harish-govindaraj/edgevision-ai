@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-09-10 11:42:35",
+  "hardware": {
+    "cpu_utilization_percent": 27.5,
+    "ram_used_mb": 11525.28125,
+    "ram_total_mb": 15599.40234375,
+    "ram_utilization_percent": 73.9,
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "gpu_utilization_percent": 5.0,
+    "gpu_memory_used_mb": 321.0,
+    "gpu_memory_total_mb": 6144.0
+  },
+  "input_resolution": "640x480",
+  "iterations": 20,
+  "results": [
+    {
+      "runtime": "PyTorch CPU",
+      "backend": "pytorch",
+      "provider": "CPU",
+      "precision": "FP32",
+      "model_size_mb": 13.6,
+      "input_resolution": "640x480",
+      "iterations": 20,
+      "preprocessing": {
+        "mean": 1.3159800000266841,
+        "p50": 1.164200000175697,
+        "p95": 2.224415000114277,
+        "min": 1.061699999809207,
+        "max": 2.2360999996635655
+      },
+      "inference": {
+        "mean": 52.60613000000376,
+        "p50": 51.1575499999708,
+        "p95": 66.32054999986396,
+        "min": 43.3458000002247,
+        "max": 79.22820000021602
+      },
+      "postprocessing": {
+        "mean": 0.07663499998216139,
+        "p50": 0.07055000014588586,
+        "p95": 0.0930850000258943,
+        "min": 0.06480000001829467,
+        "max": 0.1403000001118926
+      },
+      "total": {
+        "mean": 54.00109500003509,
+        "p50": 52.38809999991645,
+        "p95": 68.58617999962463,
+        "min": 44.479799999862735,
+        "max": 80.61469999984183
+      },
+      "fps_p50": 19.1,
+      "system_metrics": {
+        "cpu_util_pct": 68.8,
+        "ram_used_mb": 11519.39453125,
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "gpu_util_pct": 5.0,
+        "gpu_memory_used_mb": 322.0
+      }
+    },
+    {
+      "runtime": "ONNX Runtime CPU (FP32)",
+      "backend": "onnx",
+      "provider": "CPUExecutionProvider",
+      "precision": "FP32",
+      "model_size_mb": 13.46,
+      "input_resolution": "640x480",
+      "iterations": 20,
+      "preprocessing": {
+        "mean": 1.4813050000611838,
+        "p50": 1.4375000000654836,
+        "p95": 1.6991650001500602,
+        "min": 1.1849000002257526,
+        "max": 1.746000000366621
+      },
+      "inference": {
+        "mean": 111.16857000001801,
+        "p50": 111.35990000002494,
+        "p95": 113.68943500028763,
+        "min": 104.77240000000165,
+        "max": 116.03280000008453
+      },
+      "postprocessing": {
+        "mean": 0.06511499998396175,
+        "p50": 0.06209999992279336,
+        "p95": 0.07641500008048753,
+        "min": 0.05989999999655993,
+        "max": 0.09379999983138987
+      },
+      "total": {
+        "mean": 112.71687500002372,
+        "p50": 113.0392000000029,
+        "p95": 115.14164499994877,
+        "min": 106.18939999994836,
+        "max": 117.57259999967573
+      },
+      "fps_p50": 8.8,
+      "system_metrics": {
+        "cpu_util_pct": 39.5,
+        "ram_used_mb": 11576.75,
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "gpu_util_pct": 5.0,
+        "gpu_memory_used_mb": 324.0
+      }
+    },
+    {
+      "runtime": "ONNX Runtime CPU (INT8)",
+      "backend": "onnx",
+      "provider": "CPUExecutionProvider",
+      "precision": "INT8",
+      "model_size_mb": 4.11,
+      "input_resolution": "640x480",
+      "iterations": 20,
+      "preprocessing": {
+        "mean": 1.5630250000185697,
+        "p50": 1.55815000016446,
+        "p95": 1.8024549999381634,
+        "min": 1.3223999999354419,
+        "max": 1.8890000001192675
+      },
+      "inference": {
+        "mean": 137.1208349999506,
+        "p50": 137.2670000000653,
+        "p95": 141.61542999986523,
+        "min": 131.50369999993927,
+        "max": 143.979599999966
+      },
+      "postprocessing": {
+        "mean": 0.06943499997760227,
+        "p50": 0.06224999970072531,
+        "p95": 0.10011500019118103,
+        "min": 0.060599999869737076,
+        "max": 0.10800000018207356
+      },
+      "total": {
+        "mean": 138.7551200000189,
+        "p50": 138.81714999979522,
+        "p95": 143.10516500020185,
+        "min": 133.10920000003534,
+        "max": 145.65429999993285
+      },
+      "fps_p50": 7.2,
+      "system_metrics": {
+        "cpu_util_pct": 39.2,
+        "ram_used_mb": 11537.171875,
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "gpu_util_pct": 5.0,
+        "gpu_memory_used_mb": 321.0
+      }
+    }
+  ]
+}

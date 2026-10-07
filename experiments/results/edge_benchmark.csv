@@ -1,0 +1,4 @@
+runtime,precision,provider,preprocess_mean_ms,inference_mean_ms,inference_p50_ms,inference_p95_ms,postprocess_mean_ms,total_p50_ms,total_p95_ms,fps,throughput,model_size_mb
+PyTorch CPU,FP32,CPU,1.316,52.606,51.158,66.321,0.077,52.388,68.586,19.1,19.1 FPS,13.6
+ONNX Runtime CPU (FP32),FP32,CPUExecutionProvider,1.481,111.169,111.36,113.689,0.065,113.039,115.142,8.8,8.8 FPS,13.46
+ONNX Runtime CPU (INT8),INT8,CPUExecutionProvider,1.563,137.121,137.267,141.615,0.069,138.817,143.105,7.2,7.2 FPS,4.11

@@ -1,0 +1,41 @@
+[
+    {
+        "runtime": "PYTORCH CPU (FP32)",
+        "resolution": "640x480",
+        "processed_frames": 165,
+        "capture_fps": 30.0,
+        "processing_fps": 16.6,
+        "dropped_frames": 135,
+        "total_p50_ms": 60.38,
+        "total_p95_ms": 66.47,
+        "inference_mean_ms": 60.02,
+        "tracking_mean_ms": 0.01,
+        "cpu_util_pct": 62.6
+    },
+    {
+        "runtime": "ONNX CPU (FP32)",
+        "resolution": "640x480",
+        "processed_frames": 70,
+        "capture_fps": 30.0,
+        "processing_fps": 6.9,
+        "dropped_frames": 230,
+        "total_p50_ms": 145.28,
+        "total_p95_ms": 154.3,
+        "inference_mean_ms": 144.98,
+        "tracking_mean_ms": 0.01,
+        "cpu_util_pct": 35.9
+    },
+    {
+        "runtime": "ONNX CPU (INT8)",
+        "resolution": "640x480",
+        "processed_frames": 67,
+        "capture_fps": 30.0,
+        "processing_fps": 6.6,
+        "dropped_frames": 233,
+        "total_p50_ms": 148.6,
+        "total_p95_ms": 175.79,
+        "inference_mean_ms": 150.44,
+        "tracking_mean_ms": 0.01,
+        "cpu_util_pct": 47.3
+    }
+]
